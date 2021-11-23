@@ -51,14 +51,23 @@ table {
 
 /* Standard */
 
+p{
+	padding: 1.125rem 0rem;	
+}
 h1{
 	text-align: center;
 	font-size: 1.5rem;
+	position: sticky;
+	top: 0;
 }
-.section-header{
+div.section-header{
 	text-align: center;
 	position: sticky;
+	top: 0;
+}
+p.section-header{
 	font-size: 1.25rem;
+	top: 0;
 }
 table{
 	border: 0rem;
@@ -66,10 +75,26 @@ table{
 	width: 80%;
 	text-align: center;
 	vertical-align: middle;
+	display: inline-block;
+}
+tr{
+	display: inline-block;
+	width: 100%;
+	padding: 2rem 0rem;
+}
+td{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	height: inherit;
+	width: 50%;
 }
 .name{
+	top: 0;
 	font-size: 1.125rem;
 	font-weight: bold;
+	vertical-align: middle;
 }
 .description{
 	font-size: 1rem;
