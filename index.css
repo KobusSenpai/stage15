@@ -51,23 +51,32 @@ table {
 
 /* Standard */
 
+html{
+	background-color: #FFE;
+}
 p{
-	padding: 1.125rem 0rem;	
+	padding: 1.175rem 1rem;	
+	text-align: center;
+	font-size: 1.125rem;
 }
 h1{
 	text-align: center;
 	font-size: 1.5rem;
 	position: sticky;
 	top: 0;
+	background-color: #FF9410;
 }
 div.section-header{
 	text-align: center;
 	position: sticky;
 	top: 0;
+	
 }
 p.section-header{
-	font-size: 1.25rem;
+	font-size: 1.40rem;
 	top: 0;
+	background-color: #FF9410;
+	padding: 0;
 }
 table{
 	border: 0rem;
@@ -97,11 +106,15 @@ td{
 	vertical-align: middle;
 }
 .description{
-	font-size: 1rem;
+	font-size: 1.075rem;
 	font-style: italic;
 }
 #container{
 	text-align: center;
 	width: 100%;
+}
+li{
+	text-align: center;
+	font-size: 1.125rem;
 }
 /*  */
